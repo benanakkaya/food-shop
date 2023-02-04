@@ -1,0 +1,117 @@
+{
+  "foods": [
+    {
+      "id": 1,
+      "name": "Dürüm Tavuk Döner",
+      "ingredients": "Tavuk döner, lavaş, soğan , domates, patates kızartması, mayonez, turşu...",
+      "price": 40,
+      "image": "https://i.ytimg.com/vi/-qRKmMCsfFg/maxresdefault.jpg",
+      "quantitySold": 20,
+      "portion": 20,
+      "comments": [
+        {
+          "id": "5uTsufXXMHiR-a68OUAs9",
+          "comment": "deneme",
+          "author": "baran",
+          "rating": 10
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Yarım Ekmek Tavuk Döner",
+      "ingredients": "Tavuk döner, marul, soğan , domates, patates kızartması, mayonez, turşu...",
+      "price": 30,
+      "image": "https://i.ytimg.com/vi/HESa5przpaQ/maxresdefault.jpg",
+      "quantitySold": 18,
+      "portion": 20,
+      "comments": [
+        {
+          "id": "_xdcdqItA3T7i-nyY06J_",
+          "comment": "123 deneme",
+          "author": "benan",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Sucuklu Pizza",
+      "ingredients": "Mozorella peyniri, sucuk, özel pizza sosu...",
+      "price": 55,
+      "image": "https://i.ytimg.com/vi/4zabSxbx6eU/maxresdefault.jpg",
+      "quantitySold": 25,
+      "portion": 20,
+      "comments": []
+    },
+    {
+      "id": 4,
+      "name": "Cheeseburger",
+      "ingredients": "Özel hamburger köftesi, cheddar peyniri, soğan, turşu, ketçap, mayonez...",
+      "price": 40,
+      "image": "https://i.ytimg.com/vi/RCtCMdw_6PQ/maxresdefault.jpg",
+      "quantitySold": 33,
+      "portion": 30,
+      "comments": [
+        {
+          "id": "Z5TMs_tg3FTyjexlKkEv9",
+          "comment": "deneme yorum",
+          "author": "benan",
+          "rating": 8
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Hotdog",
+      "ingredients": "Sosis, hardal, turşu, ketçap, mayonez...",
+      "price": 35,
+      "image": "https://www.komando.com/wp-content/uploads/a43683d33b40f413228d54e3c6ed4a2f-1635.jpg",
+      "quantitySold": 1,
+      "portion": 55,
+      "comments": []
+    },
+    {
+      "id": 6,
+      "name": "Tavuk Burger",
+      "ingredients": "Tavuk, marul, domates, turşu, ketçap, mayonez...",
+      "price": 30,
+      "image": "https://kumantsova.com/wp-content/uploads/2018/12/Hamburger.jpg",
+      "quantitySold": 2,
+      "portion": 35,
+      "comments": []
+    },
+    {
+      "id": 7,
+      "name": "İskender",
+      "ingredients": "Dana döner,yoğurt,tırnak pide,domates,biber,tereyağı...",
+      "price": 60,
+      "image": "https://i.ytimg.com/vi/rTOoN9NP2kw/maxresdefault.jpg",
+      "quantitySold": 2,
+      "portion": 73,
+      "comments": []
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "benan",
+      "password": "123123",
+      "email": "ahmetbenan@yandex.com",
+      "admin": true
+    },
+    {
+      "id": "axVC0kMb7C5l1kaEehY9J",
+      "username": "ahmet",
+      "password": "123123",
+      "email": "ahmet@yandex.com",
+      "true": false
+    },
+    {
+      "id": "YZA5sIRxYLonong5HSQec",
+      "username": "baran",
+      "password": "123123",
+      "email": "baran@yandex.com"
+    }
+  ]
+}
