@@ -58,7 +58,7 @@ function CommentsModal() {
                                         <option value={1}>1</option>
                                     </select>
                                     <input placeholder='Yorum yapınız...' value={com} style={{ width: "20rem", padding: "0rem 0.2rem" }} onChange={(e) => setCom(e.target.value)}></input>
-                                    <button style={{ color: "white", backgroundColor: "goldenrod", marginLeft: "0.5rem", padding: "0 0.2rem", borderRadius: "0.5rem", borderColor: "gray" }} onClick={(e) => handleAddComment(e)}>Yorum Yap</button>
+                                    <button style={{ color: "white", backgroundColor: "goldenrod", marginLeft: "0.3rem", padding: "0 0.2rem", borderRadius: "0.5rem", borderColor: "gray" }} onClick={(e) => handleAddComment(e)}>Yorum Yap</button>
                                 </form>
                                 : <small>Yorum yapabilmek için lütfen giriş yapınız.</small>}
                         </div>
@@ -68,7 +68,7 @@ function CommentsModal() {
                                 {comments.map((comment, ind) => (
                                     <div key={ind} style={{ border: "0.1rem solid black", borderRadius: "0.5rem", padding: "0.4rem", marginBottom: "1rem" }}>
                                         <div style={{ padding: "0rem 0.5rem" }}>
-                                            <span >{comment.author}</span> <span style={{ float: "right" }}><img src={"https://cdn2.iconfinder.com/data/icons/default-1/100/.svg-4-512.png"} style={{ height: "1.2rem" }} alt="star" />{comment.rating}/10</span>
+                                            <span style={{textDecoration:"underline"}}>{comment.author}</span> <span style={{ float: "right" }}><img src={"https://cdn2.iconfinder.com/data/icons/default-1/100/.svg-4-512.png"} style={{ height: "1.2rem" }} alt="star" />{comment.rating}/10</span>
                                         </div> <br></br>
                                         <p style={{ padding: "0rem 0.5rem" }}>{comment.comment}</p>
                                         {(admin === true) || (comment.author === username) ?
